@@ -49,7 +49,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="container" id="header" ref={headerRef}>
+      <header id="header" ref={headerRef}>
         <div className="header_top">
           <div className="header_social">
             <a href="https://www.instagram.com/sa__fashionstyle/?igsh=eWpjbWFqc3FlbGhl" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
