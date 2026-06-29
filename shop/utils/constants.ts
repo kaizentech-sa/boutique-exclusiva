@@ -119,12 +119,12 @@ export const SHOP_CONFIG = {
 
 // Route paths for the shop
 export const SHOP_ROUTES = {
-  SHOP: '/shop',
-  PRODUCT: '/product',
+  SHOP: '/products',
+  PRODUCT: '/products',
   CART: '/cart',
   CHECKOUT: '/checkout',
-  PAYMENT_SUCCESS: '/payment/success',
-  PAYMENT_FAILURE: '/payment/failure',
+  PAYMENT_SUCCESS: '/checkout/success',
+  PAYMENT_FAILURE: '/checkout/failure',
   ORDERS: '/orders',
   BLOG: '/blog',
 };

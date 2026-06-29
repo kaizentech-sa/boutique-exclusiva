@@ -217,7 +217,7 @@ export function verifyPaymentResult(
   // If no order ID in URL, try to get it from sessionStorage
   // This handles cases where PayFast doesn't return parameters in URL
   if (!orderId && typeof window !== 'undefined') {
-    orderId = sessionStorage.getItem('pending_order_id') || undefined;
+    orderId = sessionStorage.getItem('pending_order_id') || null;
   }
   
   const status = searchParams.get('payment_status');
