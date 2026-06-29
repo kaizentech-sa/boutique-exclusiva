@@ -1,2 +1,5 @@
 .env
 node_modules
+.next
+.next/dev/cache/turbopack/f37fad94/CURRENT
+.next/dev/cache/turbopack/f37fad94/LOG
